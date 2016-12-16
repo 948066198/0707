@@ -15,6 +15,30 @@
 		CF42CAA21D2DE25300648D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF42CAA01D2DE25300648D0A /* LaunchScreen.storyboard */; };
 		CF42CAAD1D2DE25300648D0A /* _707Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAAC1D2DE25300648D0A /* _707Tests.m */; };
 		CF42CAB81D2DE25300648D0A /* _707UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAB71D2DE25300648D0A /* _707UITests.m */; };
+		CF42CAD31D2F49AE00648D0A /* SecVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAD21D2F49AE00648D0A /* SecVc.m */; };
+		CF42CAD61D2F4A4200648D0A /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAD51D2F4A4200648D0A /* iflyMSC.framework */; };
+		CF42CAD81D2F4A8E00648D0A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAD71D2F4A8E00648D0A /* libz.tbd */; };
+		CF42CADA1D2F4A9800648D0A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAD91D2F4A9800648D0A /* CoreLocation.framework */; };
+		CF42CADC1D2F4AA200648D0A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CADB1D2F4AA200648D0A /* CoreTelephony.framework */; };
+		CF42CADE1D2F4AAB00648D0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CADD1D2F4AAB00648D0A /* AVFoundation.framework */; };
+		CF42CAE01D2F4AB200648D0A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CADF1D2F4AB200648D0A /* AddressBook.framework */; };
+		CF42CAE21D2F4AC800648D0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAE11D2F4AC800648D0A /* AudioToolbox.framework */; };
+		CF42CAE41D2F4AD400648D0A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAE31D2F4AD400648D0A /* SystemConfiguration.framework */; };
+		CF42CAE61D2F4ADC00648D0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAE51D2F4ADC00648D0A /* QuartzCore.framework */; };
+		CF42CAE81D2F4AE600648D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAE71D2F4AE600648D0A /* UIKit.framework */; };
+		CF42CAEA1D2F4AF000648D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAE91D2F4AF000648D0A /* Foundation.framework */; };
+		CF42CAEC1D2F4AFC00648D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF42CAEB1D2F4AFC00648D0A /* CoreGraphics.framework */; };
+		CF42CAEF1D2F4C8300648D0A /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAEE1D2F4C8300648D0A /* TTSConfig.m */; };
+		CF42CB0F1D2F4EB600648D0A /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAFA1D2F4EB600648D0A /* PcmPlayer.m */; };
+		CF42CB101D2F4EB600648D0A /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CAFD1D2F4EB600648D0A /* PopupView.m */; };
+		CF42CB111D2F4EB600648D0A /* SBJson4Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB011D2F4EB600648D0A /* SBJson4Parser.m */; };
+		CF42CB121D2F4EB600648D0A /* SBJson4StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB031D2F4EB600648D0A /* SBJson4StreamParser.m */; };
+		CF42CB131D2F4EB600648D0A /* SBJson4StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB051D2F4EB600648D0A /* SBJson4StreamParserState.m */; };
+		CF42CB141D2F4EB600648D0A /* SBJson4StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB071D2F4EB600648D0A /* SBJson4StreamTokeniser.m */; };
+		CF42CB151D2F4EB600648D0A /* SBJson4StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB091D2F4EB600648D0A /* SBJson4StreamWriter.m */; };
+		CF42CB161D2F4EB600648D0A /* SBJson4StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB0B1D2F4EB600648D0A /* SBJson4StreamWriterState.m */; };
+		CF42CB171D2F4EB600648D0A /* SBJson4Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB0D1D2F4EB600648D0A /* SBJson4Writer.m */; };
+		CF42CB1A1D2F519B00648D0A /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF42CB191D2F519B00648D0A /* AlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +75,44 @@
 		CF42CAB31D2DE25300648D0A /* 0707UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 0707UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF42CAB71D2DE25300648D0A /* _707UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _707UITests.m; sourceTree = "<group>"; };
 		CF42CAB91D2DE25300648D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF42CAD11D2F49AE00648D0A /* SecVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecVc.h; sourceTree = "<group>"; };
+		CF42CAD21D2F49AE00648D0A /* SecVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecVc.m; sourceTree = "<group>"; };
+		CF42CAD51D2F4A4200648D0A /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		CF42CAD71D2F4A8E00648D0A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CF42CAD91D2F4A9800648D0A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF42CADB1D2F4AA200648D0A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF42CADD1D2F4AAB00648D0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF42CADF1D2F4AB200648D0A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CF42CAE11D2F4AC800648D0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF42CAE31D2F4AD400648D0A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF42CAE51D2F4ADC00648D0A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF42CAE71D2F4AE600648D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF42CAE91D2F4AF000648D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF42CAEB1D2F4AFC00648D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF42CAED1D2F4C8300648D0A /* TTSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
+		CF42CAEE1D2F4C8300648D0A /* TTSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
+		CF42CAF91D2F4EB600648D0A /* PcmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		CF42CAFA1D2F4EB600648D0A /* PcmPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		CF42CAFB1D2F4EB600648D0A /* PcmPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayerDelegate.h; sourceTree = "<group>"; };
+		CF42CAFC1D2F4EB600648D0A /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		CF42CAFD1D2F4EB600648D0A /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		CF42CAFF1D2F4EB600648D0A /* SBJson4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4.h; sourceTree = "<group>"; };
+		CF42CB001D2F4EB600648D0A /* SBJson4Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Parser.h; sourceTree = "<group>"; };
+		CF42CB011D2F4EB600648D0A /* SBJson4Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
+		CF42CB021D2F4EB600648D0A /* SBJson4StreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParser.h; sourceTree = "<group>"; };
+		CF42CB031D2F4EB600648D0A /* SBJson4StreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParser.m; sourceTree = "<group>"; };
+		CF42CB041D2F4EB600648D0A /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParserState.h; sourceTree = "<group>"; };
+		CF42CB051D2F4EB600648D0A /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParserState.m; sourceTree = "<group>"; };
+		CF42CB061D2F4EB600648D0A /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
+		CF42CB071D2F4EB600648D0A /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
+		CF42CB081D2F4EB600648D0A /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriter.h; sourceTree = "<group>"; };
+		CF42CB091D2F4EB600648D0A /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriter.m; sourceTree = "<group>"; };
+		CF42CB0A1D2F4EB600648D0A /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriterState.h; sourceTree = "<group>"; };
+		CF42CB0B1D2F4EB600648D0A /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
+		CF42CB0C1D2F4EB600648D0A /* SBJson4Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
+		CF42CB0D1D2F4EB600648D0A /* SBJson4Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
+		CF42CB181D2F519B00648D0A /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		CF42CB191D2F519B00648D0A /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF42CAEC1D2F4AFC00648D0A /* CoreGraphics.framework in Frameworks */,
+				CF42CAEA1D2F4AF000648D0A /* Foundation.framework in Frameworks */,
+				CF42CAE81D2F4AE600648D0A /* UIKit.framework in Frameworks */,
+				CF42CAE61D2F4ADC00648D0A /* QuartzCore.framework in Frameworks */,
+				CF42CAE41D2F4AD400648D0A /* SystemConfiguration.framework in Frameworks */,
+				CF42CAE21D2F4AC800648D0A /* AudioToolbox.framework in Frameworks */,
+				CF42CAE01D2F4AB200648D0A /* AddressBook.framework in Frameworks */,
+				CF42CADE1D2F4AAB00648D0A /* AVFoundation.framework in Frameworks */,
+				CF42CADC1D2F4AA200648D0A /* CoreTelephony.framework in Frameworks */,
+				CF42CADA1D2F4A9800648D0A /* CoreLocation.framework in Frameworks */,
+				CF42CAD81D2F4A8E00648D0A /* libz.tbd in Frameworks */,
+				CF42CAD61D2F4A4200648D0A /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +155,17 @@
 		CF42CA861D2DE25300648D0A = {
 			isa = PBXGroup;
 			children = (
+				CF42CAEB1D2F4AFC00648D0A /* CoreGraphics.framework */,
+				CF42CAE91D2F4AF000648D0A /* Foundation.framework */,
+				CF42CAE71D2F4AE600648D0A /* UIKit.framework */,
+				CF42CAE51D2F4ADC00648D0A /* QuartzCore.framework */,
+				CF42CAE31D2F4AD400648D0A /* SystemConfiguration.framework */,
+				CF42CAE11D2F4AC800648D0A /* AudioToolbox.framework */,
+				CF42CADF1D2F4AB200648D0A /* AddressBook.framework */,
+				CF42CADD1D2F4AAB00648D0A /* AVFoundation.framework */,
+				CF42CADB1D2F4AA200648D0A /* CoreTelephony.framework */,
+				CF42CAD91D2F4A9800648D0A /* CoreLocation.framework */,
+				CF42CAD71D2F4A8E00648D0A /* libz.tbd */,
 				CF42CA911D2DE25300648D0A /* 0707 */,
 				CF42CAAB1D2DE25300648D0A /* 0707Tests */,
 				CF42CAB61D2DE25300648D0A /* 0707UITests */,
@@ -101,10 +186,16 @@
 		CF42CA911D2DE25300648D0A /* 0707 */ = {
 			isa = PBXGroup;
 			children = (
+				CF42CAF51D2F4EB600648D0A /* tools */,
+				CF42CAD41D2F4A4200648D0A /* lib */,
 				CF42CA951D2DE25300648D0A /* AppDelegate.h */,
 				CF42CA961D2DE25300648D0A /* AppDelegate.m */,
 				CF42CA981D2DE25300648D0A /* ViewController.h */,
 				CF42CA991D2DE25300648D0A /* ViewController.m */,
+				CF42CAED1D2F4C8300648D0A /* TTSConfig.h */,
+				CF42CAEE1D2F4C8300648D0A /* TTSConfig.m */,
+				CF42CAD11D2F49AE00648D0A /* SecVc.h */,
+				CF42CAD21D2F49AE00648D0A /* SecVc.m */,
 				CF42CA9B1D2DE25300648D0A /* Main.storyboard */,
 				CF42CA9E1D2DE25300648D0A /* Assets.xcassets */,
 				CF42CAA01D2DE25300648D0A /* LaunchScreen.storyboard */,
@@ -138,6 +229,59 @@
 				CF42CAB91D2DE25300648D0A /* Info.plist */,
 			);
 			path = 0707UITests;
+			sourceTree = "<group>";
+		};
+		CF42CAD41D2F4A4200648D0A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CF42CAD51D2F4A4200648D0A /* iflyMSC.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		CF42CAF51D2F4EB600648D0A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				CF42CB181D2F519B00648D0A /* AlertView.h */,
+				CF42CB191D2F519B00648D0A /* AlertView.m */,
+				CF42CAF81D2F4EB600648D0A /* pcmPlayerCode */,
+				CF42CAFC1D2F4EB600648D0A /* PopupView.h */,
+				CF42CAFD1D2F4EB600648D0A /* PopupView.m */,
+				CF42CAFE1D2F4EB600648D0A /* SBJson */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		CF42CAF81D2F4EB600648D0A /* pcmPlayerCode */ = {
+			isa = PBXGroup;
+			children = (
+				CF42CAF91D2F4EB600648D0A /* PcmPlayer.h */,
+				CF42CAFA1D2F4EB600648D0A /* PcmPlayer.m */,
+				CF42CAFB1D2F4EB600648D0A /* PcmPlayerDelegate.h */,
+			);
+			path = pcmPlayerCode;
+			sourceTree = "<group>";
+		};
+		CF42CAFE1D2F4EB600648D0A /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				CF42CAFF1D2F4EB600648D0A /* SBJson4.h */,
+				CF42CB001D2F4EB600648D0A /* SBJson4Parser.h */,
+				CF42CB011D2F4EB600648D0A /* SBJson4Parser.m */,
+				CF42CB021D2F4EB600648D0A /* SBJson4StreamParser.h */,
+				CF42CB031D2F4EB600648D0A /* SBJson4StreamParser.m */,
+				CF42CB041D2F4EB600648D0A /* SBJson4StreamParserState.h */,
+				CF42CB051D2F4EB600648D0A /* SBJson4StreamParserState.m */,
+				CF42CB061D2F4EB600648D0A /* SBJson4StreamTokeniser.h */,
+				CF42CB071D2F4EB600648D0A /* SBJson4StreamTokeniser.m */,
+				CF42CB081D2F4EB600648D0A /* SBJson4StreamWriter.h */,
+				CF42CB091D2F4EB600648D0A /* SBJson4StreamWriter.m */,
+				CF42CB0A1D2F4EB600648D0A /* SBJson4StreamWriterState.h */,
+				CF42CB0B1D2F4EB600648D0A /* SBJson4StreamWriterState.m */,
+				CF42CB0C1D2F4EB600648D0A /* SBJson4Writer.h */,
+				CF42CB0D1D2F4EB600648D0A /* SBJson4Writer.m */,
+			);
+			path = SBJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +414,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF42CB1A1D2F519B00648D0A /* AlertView.m in Sources */,
+				CF42CB121D2F4EB600648D0A /* SBJson4StreamParser.m in Sources */,
+				CF42CB151D2F4EB600648D0A /* SBJson4StreamWriter.m in Sources */,
 				CF42CA9A1D2DE25300648D0A /* ViewController.m in Sources */,
+				CF42CB141D2F4EB600648D0A /* SBJson4StreamTokeniser.m in Sources */,
+				CF42CB171D2F4EB600648D0A /* SBJson4Writer.m in Sources */,
+				CF42CB0F1D2F4EB600648D0A /* PcmPlayer.m in Sources */,
 				CF42CA971D2DE25300648D0A /* AppDelegate.m in Sources */,
+				CF42CB131D2F4EB600648D0A /* SBJson4StreamParserState.m in Sources */,
+				CF42CB111D2F4EB600648D0A /* SBJson4Parser.m in Sources */,
+				CF42CAD31D2F49AE00648D0A /* SecVc.m in Sources */,
+				CF42CB161D2F4EB600648D0A /* SBJson4StreamWriterState.m in Sources */,
+				CF42CB101D2F4EB600648D0A /* PopupView.m in Sources */,
 				CF42CA941D2DE25300648D0A /* main.m in Sources */,
+				CF42CAEF1D2F4C8300648D0A /* TTSConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +569,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/0707/lib",
+				);
 				INFOPLIST_FILE = 0707/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shibo.-707";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +586,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/0707/lib",
+				);
 				INFOPLIST_FILE = 0707/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shibo.-707";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +666,7 @@
 				CF42CABE1D2DE25300648D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF42CABF1D2DE25300648D0A /* Build configuration list for PBXNativeTarget "0707Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +675,7 @@
 				CF42CAC11D2DE25300648D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF42CAC21D2DE25300648D0A /* Build configuration list for PBXNativeTarget "0707UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +684,7 @@
 				CF42CAC41D2DE25300648D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

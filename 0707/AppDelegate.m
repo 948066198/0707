@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "iflyMSC/IFlyMSC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //显示SDK的版本号
+    NSLog(@"verson=%@",[IFlySetting getVersion]);
+    
+    //设置sdk的log等级，log保存在下面设置的工作路径中
+    [IFlySetting setLogFile:LVL_ALL];
+    
+    //打开输出在console的log开关
+    [IFlySetting showLogcat:NO];
+    
+    //设置sdk的工作路径
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachePath = [paths objectAtIndex:0];
+    [IFlySetting setLogFilePath:cachePath];
+    //Appid是应用的身份信息,具有唯一性,初始化时必须要传入Appid。
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",@"577f0bec"];
+    [IFlySpeechUtility createUtility:initString];
     return YES;
 }
 
